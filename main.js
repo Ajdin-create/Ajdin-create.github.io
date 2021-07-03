@@ -1,13 +1,16 @@
 
   var firebaseConfig = {
-    apiKey: "AIzaSyCqhmHfsHM6yhbZklL7hXrBslkCK-CViEk",
-    authDomain: "sinuous-crow-256819.firebaseapp.com",
-    projectId: "sinuous-crow-256819",
-    storageBucket: "sinuous-crow-256819.appspot.com",
-    messagingSenderId: "41786061673",
-    appId: "1:41786061673:web:2d02bd9d6b2a16ba47c3f8",
-    measurementId: "G-DNCZVQNYLQ"
+    apiKey: "AIzaSyDlSb_ebX-sUywwIdtDX4L-8zOhxzmTP8o",
+    authDomain: "messages-9ff1d.firebaseapp.com",
+    databaseURL: "https://messages-9ff1d-default-rtdb.europe-west1.firebasedatabase.app/",
+    projectId: "messages-9ff1d",
+    storageBucket: "messages-9ff1d.appspot.com",
+    messagingSenderId: "733528564702",
+    appId: "1:733528564702:web:f27c56e0f431f87ff9734f",
+    measurementId: "G-2P7DENP0YK"
+    
   };
+  
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -19,6 +22,8 @@
      var subject = getInputValue("subject");
      var email = getInputValue("email");
      var message = getInputValue("message");
+
+     saveMessage(name,subject,email,message)
  })
 
  function getInputValue(id){
