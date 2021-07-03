@@ -2,7 +2,7 @@
   var firebaseConfig = {
     apiKey: "AIzaSyDlSb_ebX-sUywwIdtDX4L-8zOhxzmTP8o",
     authDomain: "messages-9ff1d.firebaseapp.com",
-    databaseURL: "https://messages-9ff1d-default-rtdb.europe-west1.firebasedatabase.app/",
+    databaseURL: "https://messages-9ff1d-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "messages-9ff1d",
     storageBucket: "messages-9ff1d.appspot.com",
     messagingSenderId: "733528564702",
@@ -40,5 +40,5 @@
 
 
      }) 
-     alert("radi")
+     alert("Your message is sent successfully!")
  }
