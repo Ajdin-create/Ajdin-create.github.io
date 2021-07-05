@@ -12,7 +12,9 @@
     --previewBg:rgb(251, 249, 243, 0.8);
     --previewShadow:#f0ead6;
 }
-
+html {
+    scroll-behavior: smooth;
+}
  body{
     padding:0;
     margin:0;
@@ -278,10 +280,21 @@ h6 {font-size: 16px;}
 	padding-top: 50px;
 	gap:100px;
 }
+.text1{
+    text-align: center;
+    margin: 1cm;
+}
+.text2{
+    text-align: center;
+    margin: 1cm;
+}
 li{
     padding: 9px 0;
 }
-
+.about-me{
+    text-align: center;
+    margin: 1cm;
+}
 
 #skills{
 	display: flex;
@@ -297,6 +310,7 @@ li{
 
 #social_img{
 	width: 100%;
+    margin: -0.5cm;
 }
 
 
@@ -325,6 +339,7 @@ li{
 .post-preview{
 	background-color: #fff;
 	padding:15px;
+    
 }
 
 .post-title{
