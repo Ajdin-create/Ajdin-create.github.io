@@ -298,9 +298,10 @@ li{
 
 #skills{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	background-color: var(--previewShadow);
 }
+
 
 .social-links{
 	display: grid;
@@ -450,6 +451,11 @@ li{
 	}
     .about-wrapper{
         text-align: center;
+    }
+    #skills{
+        justify-content: normal;
+	
+	
     }
 
 }
