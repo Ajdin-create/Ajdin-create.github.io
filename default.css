@@ -309,8 +309,8 @@ li{
 }
 
 #social_img{
-	width: 100%;
-    margin: -0.5cm;
+	width: 80%;
+    margin: auto;
 }
 
 
@@ -394,6 +394,8 @@ li{
 	color: black;
 	background-color: var(--buttonColor);
 	border:none;
+    font-family: 'Russo One', sans-serif;
+    
 }
 
 
